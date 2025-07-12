@@ -157,7 +157,7 @@ function Contact() {
               transition={{ duration: 0.6 }}
               className="text-neutral-400 text-sm flex items-center justify-center space-x-2"
             >
-              <span>© 2024 Sumit Joshi. All rights reserved.</span>
+              <span>© 2025 Sumit Joshi. All rights reserved.</span>
               <span className="text-lg animate-pulse">💻</span>
               <span>Made with</span>
               <span className="text-red-500 animate-pulse">❤️</span>
