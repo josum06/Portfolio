@@ -3,9 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = 
+ `I am a dedicated full-stack developer currently pursuing a B.Tech in Computer Science with hands-on experience in building robust and scalable web applications. Through impactful  personal projects, I’ve honed my skills in front-end technologies like React.js, Next.js, and Tailwind CSS, and back-end stacks including Node.js, Express.js, and MongoDB. 
+    My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer with a strong passion for creating efficient and user-centric web applications. I have hands-on experience with technologies such as React.js, Next.js, Node.js, MongoDB, MySQL, and Supabase, gained through real-world projects. I actively practice Data Structures and Algorithms which has significantly strengthened my problem-solving skills. I thrive in collaborative environments, enjoy tackling complex technical challenges, and continuously seek opportunities to learn and grow. Outside of coding, I enjoy exploring new technologies, staying active, and contributing to open-source projects`;
 
 export const EXPERIENCES = [
   {
@@ -40,32 +42,36 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Food Ordering Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A responsive canteen website built using the MERN stack, offering a seamless food ordering experience with real-time order tracking and secure online payments. Designed to enhance efficiency and user convenience in campus dining",
+    technologies: [  "MongoDB", "Express" , "React", "Node.js","Tailwind CSS"],
+    github: "https://github.com/josum06/bpitcanteen"
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "Campus Connect",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Campus Connect is a campus networking platform that enables students to share projects and connect through real-time chat. It supports secure one-to-one and group messaging with connection requests. Faculty and admins can post official notices and events. The platform fosters seamless communication and collaboration across the campus.",
+    technologies: ["MongoDB", "Express" , "React", "Node.js","Tailwind CSS"],
+    github: "https://github.com/josum06/CC"
   },
   {
-    title: "Blogging Platform",
+    title: "Natours",
+    image: project2,
+    description:
+      "A feature-rich tour booking website developed with Node.js, Express, and MongoDB. It includes secure user authentication, Stripe-based payment integration, and efficient booking management to deliver a smooth travel planning experience.",
+    technologies: ["Express","Node.js", "Pug", "MongoDB"],
+    github: "https://github.com/josum06/Natours"
+  },
+  {
+    title: "Book Ease",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Book Ease is a hotel management web app built with Next.js and Supabase, offering real-time guest data tracking, seamless authentication, and an intuitive booking experience. It streamlines operations and improves efficiency in hospitality management",
+    technologies: ["Next.js", "supabase"],
+    github: "https://github.com/josum06/book-ease-Next"
   },
 ];
 
